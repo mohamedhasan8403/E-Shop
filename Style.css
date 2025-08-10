@@ -156,22 +156,21 @@ body{
   padding: 0;
 }
 
-.nav-bar__search-input input{
-  width: 100%;
-  padding: var(--padding-1-25);
-  padding-left: 2rem;
-  border-radius: 3rem;
-  font-size: var(--font-size-nav-items-p);
-  border: 0;
-  outline: 0;
-} 
-
-
-.nav-bar__search-input .nav-bar__Search-icon{
+.nav-bar__search-input .nav-bar__search-icon{
   position: absolute;
   right: 0.5rem;
   cursor: pointer;
   background-color: var(--secondry-color);
   padding: 0.75rem;
   border-radius: 100%;
+}
+
+.nav-bar__p--small{
+  font-size: 1.2rem;
+}
+
+.nav-bar__cart-list{
+  display: block;
+  text-align: center;
+  font-size: var(--font-size-1-2);
 }
