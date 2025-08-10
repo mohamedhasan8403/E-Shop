@@ -27,3 +27,23 @@ html{
   font-family: 'Bogle Bold';
   src: url(./Fonts/BOGLEBOLD.OTF);
 }
+
+/*CSS Variables*/
+
+:root{
+
+  /*Colors*/
+
+  --Primary-color: #0071ce;
+  --secondry-color:#ffc220;
+  --footer-color:#004F9A;
+  --pure-white:#fff;
+  --pure-black:#000;
+  --hover-blue: #004F9A;
+  --dark-blue:#041e42;
+  --green:#2A8703;
+  --light-blue:#E6F1FC;
+  --light-grey: #74767cbb;
+
+  /*Padding*/
+}
