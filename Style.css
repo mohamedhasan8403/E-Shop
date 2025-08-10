@@ -1,7 +1,29 @@
 /* CSS Reset */
 
 *{
-  margin:0px;
-  padding:0px;
-  box-sizing:border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+/*Font-Family*/
+
+@font-face{
+  font-family: 'Bogle Black';
+  src: url(./Fonts/BOGLEBLACK.OTF);
+}
+
+@font-face {
+  font-family: 'Bogle Regular';
+  src: url(./Fonts/BOGLEREGULAR.OTF);
+}
+
+@font-face {
+  font-family: 'Bogle Bold';
+  src: url(./Fonts/BOGLEBOLD.OTF);
 }
