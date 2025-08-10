@@ -1,1 +1,288 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title Of the Website-->
+    <title>Walmart Clone</title>
+    <!--CSS Linking-->
+    <link rel="stylesheet" href="style.css">
+    <!--Box-icon Linking-->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/animations.css' integrity='sha512-7akQLEq1iRlFlXk6KEBZyZGpVkd0FjaRTJZOggDjj6w8BjWU6xkEVrnBS9DTY8Cj6d6ESvRmUSS2P9DjNu7CpA==' crossorigin='anonymous'/>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/Logo and Navbar/walmart-logo-mobile.svg" type="image/x-icon">
+</head>
+<body>
+    <!--Main Navbar-->
+    <header>
+        <nav class="nav-bar">
+            <ul class="nav-bar__items">
+                <li class="nav-bar__logo">
+                    <img src="./images/Logo and Navbar/walmart-logo.svg" alt="Walmart Logo">
+                </li>
+                <li class="nav-bar__logo-mobile">
+                    <img src="./images/Logo and Navbar/walmart-logo-mobile.svg" alt="Walmart Logo">
+                </li>
+                <li class="d-md-none"><box-icon name="grid-alt" color="black" size="2rem"></box-icon>DepartMents</li>
+                <li class="d-md-none"><box-icon name="grid-alt" color="black" size="2rem"></box-icon>Services</li>
+                <li class="nav-bar__search-input">
+                    <input type="search" placeholder="search Everything at Walmart Online and In Store">
+                    <box-icon name="Search-alt-2" class="nav-bar__Search-icon" size="2rem"></box-icon>
+                </li>
+                <li class="d-md-none">
+                    <box-icon name="heart" color="black" size="2rem"></box-icon>
+                    <div>
+                        <p class="nav-bar__p--small font-normal">Reorder</p>
+                        <p>My Items</p>
+                    </div>
+                </li>
+                <li class="d-md-none">
+                    <box-icon name="lock-alt" color="black" size="2rem"></box-icon>
+                    <div>
+                        <p class="nav-bar__p-small font-normal">Sign In</p>
+                        <p>Account</p>
+                    </div>
+                </li>
+                <li class="nav-bar__cart-list font-normal">
+                    <box-icon name="cart" color="black" size="2rem"></box-icon>
+                    <p>$0.00</p>
+                    <span>0</span>
+                </li>
+            </ul>
+            <!--Secondry Navbar-->
+            <div class="nav-bar__divider-line"></div>
+            <ul class="nav-bar__items nav-bar__items-2 d-sm-none">
+                <ul class="nav-bar__location-list d-md-none">
+                    <li>
+                        <img src="./images/Logo and Navbar/Phone-icon.png" alt="Walmart Icon"> 
+                        How Do You Want Your Items?
+                        <box-icon name="chevron-down" color="black" size="2rem"></box-icon>
+                    </li>
+                    <li class="font-normal"> 
+                        | <box-icon name="location-plus" color="black" size="2rem"></box-icon>
+                        sacramento, 95829 
+                        <box-icon name="home" color="black" size="2rem"></box-icon>
+                        sacramento Supercenter
+                    </li>
+                    <ul class="nav-bar__category-list d-md-none">
+                        <li><a href="#">Deals</a></li>
+                        <li><a href="#">Grocerry & Essantials</a></li>
+                        <li><a href="#">Easter</a></li>
+                        <li><a href="#">Baby Days</a></li>
+                        <li><a href="#">Black & Unlimited</a></li>
+                        <li><a href="#">Fashions</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Electronics</a></li>
+                    </ul>
+                </ul>
+            </ul>
+        </nav>   
+    </header>
+    <main>
+        <!--Section 1-->
+        <section class="section-1" id="section-1">
+            <div class="section-1__left-div-main-div">
+                <div class="section-1__product-div">
+                    <img src="images/section 1/side-left-img-1.jpg" alt="Left Side Image">
+                    <div class="section-1__product-content section-1__product-content-1">
+                        <p>Baby Days: Save big!</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+                <div class="section-1__product-div">
+                    <img src="images/section 1/side-left-img-2.jpg" alt="Side Left Image 2">
+                    <div class="section-1__product-content section-1__product-content-2">
+                        <p>Just Dropped, up to $100 off</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+                <div class="section-1__product-div">
+                    <img src="images/section 1/side-left-img-3.jpg" alt="Side Left Image 3">
+                    <div class="section-1__product-content section-1__product-content-3">
+                        <p>Save on Crocs & More</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-1__middle-main-div">
+                <div class="section-1__product-div">
+                    <img src="images/section 1/middle-img-1.jpg" alt="Middle Image 1">
+                    <div class="section-1__product-content section-1__product-content-4">
+                        <p>Hurry, ends Soon!</p>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+                <div class="section-1__middle-center-div">
+                    <div class="section-1__product-div">
+                        <img src="images/section 1/middle-img-2.jpg" alt="Middle Image 2">
+                        <div class="section-1__product-content section-1__product-content-5">
+                            <p>Low Prices on Grills & More</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="section-1__product-div">
+                        <img src="images/section 1/middle-img-3.jpg" alt="Middle Image 3">
+                        <div class="section-1__product-content section-1__product-content-6">
+                            <p>up to 65% off</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-1__product-div">
+                        <img src="images/section 1/middle-img-4.jpg" alt="Middle Image 4">
+                        <div class="section-1__product-content section-1__product-content-7">
+                            <p>Enjoy Free Same-day Delivery , Everyday low Prices + more !</p>
+                            <p>Terms Apply.</p>
+                            <a href="#">Join Walmart</a>
+                        </div>
+                </div>
+            </div>
+            <div class="section-1__right-main-div">
+                <div class="section-1__product-div">
+                    <img src="images/section 1/side-right-img-1.jpg" alt="Right Image 1">
+                    <div class="section-1__product-content section-1__product-content-8">
+                        <p>Up to $100 off home</p>
+                        <a href="#">Shop now</a>
+                    </div>
+                </div>
+                <div class="section-1__product-div">
+                    <img src="images/section 1/side-right-img-2.jpg" alt="Right Image 2">
+                    <div class="section-1__product-content section-1__product-content-9">
+                        <p>Tech it out From $249</p>
+                        <a href="#">Shop now</a>
+                    </div>
+                </div>
+                <div class="section-1__product-div">
+                    <img src="images/section 1/side-right-img-3.jpg" alt="Right Image 3">
+                    <div class="section-1__product-content section-1__product-content-10">
+                        <p>File Under: tax Prep for less</p>
+                        <a href="#">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section-2-->
+        <section class="section-2" id="section-2">
+            <h2>Flash Deals</h2>
+            <h3>Up To 65% off</h3>
+            <div class="section-2__deals-main-div">
+                <div class="section-2__deals-div">
+                    <img src="images/section-2/Flash-deals-img-1.jpg" alt="Flash Deals Image 1">
+                    <box-icon name="heart" color="#74767c" class="section-2__heart-icon"></box-icon>
+                    <h3>Now $31.47 <span><del>$34.97</del></span></h3>
+                    <p>Galaxy by Harvic 3-pack Mens Loose Fit Fleece Jogger Sweatpants</p>
+                    <button>options</button>
+                </div>
+                <div class="section-2__deals-div">
+                    <img src="images/section-2/Flash-deals-img-2.jpg" alt="Flash Deals Image 2">
+                    <box-icon name="heart" color="#74767c" class="section-2__heart-icon"></box-icon>
+                    <h3>Now $64.98<span><del>$240.00</del></span></h3>
+                    <p>Carote Nonstick Pots and Pans Set, 8 pcs For Kitchen Use</p>
+                    <button><span>+</span> Add</button>
+                </div>
+                <div class="section-2__deals-div">
+                    <img src="images/section-2/Flash-deals-img-3.jpg" alt="Flash Deals Image 3">
+                    <box-icon name="heart" color="#74767c" class="section-2__heart-icon"></box-icon>
+                    <h3>Now $234.84<span><del>$397.70</del></span></h3>
+                    <p>Kingchii Wood Pellet Grill and Smoker 456 sq.in, 8-in-1 Set</p>
+                    <button><span>+</span> Add</button>
+                </div>
+                <div class="section-2__deals-div">
+                    <img src="images/section-2/Flash-deals-img-4.jpg" alt="Flash Deals Image 4">
+                    <box-icon name="heart" color="#74767c" class="section-2__heart-icon"></box-icon>
+                    <h3>Now $15.29 <span><del>$17.99</del></span></h3>
+                    <p>kleenex Ultra Soft Facial Tissues, 4 Cube Boxes, 75 Pieces</p>
+                    <button><span>+</span> Add</button>
+                </div>
+                <div class="section-2__deals-div">
+                    <img src="images/section-2/Flash-deals-img-5.jpg" alt="Flash Deals Image 5">
+                    <box-icon name="heart" color="#74767c" class="section-2__heart-icon"></box-icon>
+                    <h3 class="black-clr">$284.89</h3>
+                    <p>Qhomic 146" x 132" x 82" Inflattable Bounce Houses</p>
+                    <button><span>+</span> Add</button>
+                </div>
+                <div class="section-2__deals-div">
+                    <img src="images/section-2/Flash-deals-img-6.jpg" alt="Flash Deals Image 6">
+                    <box-icon name="heart" color="#74767c" class="section-2__heart-icon"></box-icon>
+                    <h3 class="black-clr">$37.99</h3>
+                    <p>Eytino Deniem Jacket For Women</p>
+                    <button><span>+</span> Add</button>
+                </div>
+            </div>
+        </section>
+        <!--Section 3-->
+        <section class="section-3 common-css" id="section-3">
+            <h2>Snow Removal & More</h2>
+            <h3>Don't Be Left Out in the Cold</h3>
+            <div class="section-2__deals-main-div section-3__deals-main-div">
+                <div class="section-3__deals-left-div">
+                    <div class="section-2__deals-div">
+                        <img src="./Images/Section-3/Snow-removal-tool-img-1.jpg" alt="Snow-removal-tool-img-1">
+                        <box-icon name="heart" color="#74767c" class="section-2__heart-icon"></box-icon>
+                        <h3 class="black-clr">$46.92</h3>
+                        <p>Midea 150W Quartz Electric Space Heater</p>
+                        <button>Options</button>
+                    </div>
+                    <div class="section-2__deals-div">
+                        <img src="./Images/Section-3/Snow-removal-tool-img-2.jpg" alt="Snow-removal-tool-img-2">
+                        <box-icon name="heart" color="#74767c" class="section-2__heart-icon"></box-icon>
+                        <h3>$48.94 <span><del>$55.00</del></span></h3>
+                        <p>MainStays 1500W Mechnacial oil Filled Electric Space Heater</p>
+                        <button>Options</button>
+                    </div>
+                    <div class="section-2__deals-div">
+                        <img src="./Images/Section-3/Snow-removal-tool-img-3.jpg" alt="Snow-removal-tool-img-3">
+                        <box-icon name="heart" color="#74767c" class="section-2__heart-icon"></box-icon>
+                        <h3 class="black-clr">$239.99</h3>
+                        <p>Lithelli Cordless Snow Blazer, 2 x 20 V (40V)</p>
+                        <button><span>+</span> Add</button>
+                    </div>
+                </div>
+                <div class="section-3__deals-right--div">
+                    <img src="images/section-3/Snow-removal-tool-right.jpg" alt="Snow Removal Tool Right Image">
+                    <div class="section-3__deals-right-div-contents">
+                        <p>What You Need</p>
+                        <p>All Winter Long</p>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FeedBack Section-->
+        <section class="section__feedback-section feedback-section">
+            <p>we'd Love to Hear What you Think!</p>
+            <button>Give Feedback</button>
+        </section>
+    </main>
+    <!--Footer Section-->
+    <footer>
+        <div class="footer__div">
+            <a href="#">All Departments</a>
+            <a href="#">Store Directory</a>
+            <a href="#">Careers</a>
+            <a href="#">Our Company</a>
+            <a href="#">Sell on walmart.com</a>
+            <a href="#">Help</a>
+            <a href="#">Product Recalls</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Tax Exempt Program</a>
+            <a href="#">Get the Walmart App</a>
+            <a href="#">Sign-up For Email</a>
+            <a href="#">Saftey Data Sheet</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy and Security </a>
+            <a href="#">California Supply Chain Act</a>
+            <a href="#">Your privacy Choices</a>
+            <a href="#">Notice at Collection</a>
+            <a href="#">Request my Personal Information</a>
+            <a href="#">Brand Shop Directory</a>
+            <a href="#">Pharmacy</a>
+            <a href="#">Walmart Business</a>
+            <a href="#">#IYWYK</a>
+        </div>
+        <p>&copy; 2025 Walmart. All Rights Reserved</p>
+    </footer>
+    <!--Box-icon Js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.min.js' integrity='sha512-VTptlAlSWKaYE3DbrmwNYTzZg1zO6CtoGxplxlHxObgfLiCcRYDBqzTUWE/0ANUmyfYR7R227ZirV/I4rQsPNA==' crossorigin='anonymous'></script>
+</body>
+</html> 
