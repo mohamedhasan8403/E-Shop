@@ -50,7 +50,7 @@ html{
   --padding-1: 1rem;
   --padding-1-25: 1.25rem;
   --padding-1-5: 1.5rem;
-  --padding-1-75: 1.75 rem;
+  --padding-1-75: 1.75rem;
   --padding-2: 2rem;
   --padding-2-5:2.5rem;
 
@@ -69,4 +69,109 @@ html{
 
   --font-weight-normal: 400;
   --font-weight-bold: 700;
+}
+
+/* Common CSS */
+
+.font-normal{
+  font-weight: normal;
+}
+
+h2{
+  font-size: var(--font-size-h2);
+}
+
+h3{
+  font-size: var(--font-size-h3);
+}
+
+h4{
+  font-size: var(--font-size-h4);
+}
+
+.common-css{
+  padding: 0 3rem;
+}
+
+.black-clr{
+  color: var(--pure-black) !important;
+}
+
+/*Body CSS*/
+
+body{
+  background-color: var(--pure-white);
+  font-family: 'Bogle Regular';
+  font-weight: var(--font-weight-bold);
+}
+
+/*Nav Bar CSS*/
+
+.nav-bar{
+  width: 100%;
+  background-color: var(--Primary-color);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-bar__logo{
+  display: inline-block;
+}
+
+.nav-bar__logo-mobile{
+  display: none !important;
+}
+
+.nav-bar__items{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding-1-5) var(--padding-2-5);
+  align-items: center;
+}
+
+.nav-bar__items li{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: var(--font-size-nav-items-p);
+  color: var(--pure-white);
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 0.5rem var(--padding-2-5);
+}
+
+.nav-bar__items-2 li{
+  padding: 0;
+}
+
+.nav-bar__items li:not(.nav-bar__items-2 li):not(.nav-bar__search-input):hover{
+  background-color: var(--hover-blue);
+}
+
+.nav-bar__items .nav-bar__search-input{
+  flex-basis: 40%;
+  position: relative;
+  padding: 0;
+}
+
+.nav-bar__search-input input{
+  width: 100%;
+  padding: var(--padding-1-25);
+  padding-left: 2rem;
+  border-radius: 3rem;
+  font-size: var(--font-size-nav-items-p);
+  border: 0;
+  outline: 0;
+} 
+
+
+.nav-bar__search-input .nav-bar__Search-icon{
+  position: absolute;
+  right: 0.5rem;
+  cursor: pointer;
+  background-color: var(--secondry-color);
+  padding: 0.75rem;
+  border-radius: 100%;
 }
